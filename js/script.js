@@ -8,7 +8,7 @@ function getRandomNumber(min, max) {
 
 function transformNotation(from, to, number) {
     const tenNotation = parseInt(number, from)
-    return tenNotation.toString(to)
+    return tenNotation.toString(to).toUpperCase()
 }
 
 function getRandomHexColor() {
